@@ -1,0 +1,14 @@
+<DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<title>首页</title>
+</head>
+<body>
+	<form action='{{ url_for('pinyin') }}' method='POST'>
+		<input type="text" placeholder='hanzi' name='name'>
+		<button class='btn btn-primary btn-block'>查拼音</button>
+		<p>{{ name }}</p>
+	</form>
+</body>
+</html>
