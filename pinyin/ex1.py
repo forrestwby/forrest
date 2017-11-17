@@ -12,7 +12,7 @@ def index():
     if request.method=='GET':
         return render_template('ex1.html')    
     else:
-        return 'post success!!!!!!!!!!!!' 
+        return 'post success!!!!!~~~!!!!!!!' 
 
 
 
